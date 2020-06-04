@@ -64,6 +64,9 @@ Enter password and then type the following commands
 - Scroll to system and here is where you can change the dns to cloudflare (1.1.1.1) or google (8.8.8.8). Under “name-server” , type your preferred DNS provider
 - Look for offload and type “hwnat enable” without quotes
 
+![Annotation 2020-06-04 174210](https://user-images.githubusercontent.com/59487209/83817602-cdff9c00-a68a-11ea-861d-6097480ad0a3.png)
+
+
 ## Credit
 
 [https://github.com/jaysoffian/eap_proxy](https://github.com/jaysoffian/eap_proxy)
