@@ -16,24 +16,34 @@ In computer networking is a server that acts as an intermediary from clients see
  **1. Initial Steps**
 
 - Download and install WinSCP ( https://winscp.net/eng/index.php )
+![Annotation 2020-06-04 161400](https://user-images.githubusercontent.com/59487209/83816356-d904fd00-a687-11ea-9ef8-88c8180d6d4d.png)
 - Download and install PuTTY ( https://www.putty.org/ )
+![Annotation 2020-06-04 161841](https://user-images.githubusercontent.com/59487209/83816408-f1751780-a687-11ea-8352-d5c8af206b39.png)
 - Make note of Modem/Router MAC address. It’s usually on black stick on the side of device
 - Setup Edgerouter X and run basic setup. Make sure you are not running v2.x.x because the proxy only works with v1.x.x
-
+![Annotation 2020-06-04 161324](https://user-images.githubusercontent.com/59487209/83816307-b672e400-a687-11ea-9748-4b050598fc8c.png)
 - Make a Backup
 - Once the initial setup of the ER-X is finished, make a backup by click on “System” on the bottom left then clicking “Download”
+![Annotation 2020-06-04 161446](https://user-images.githubusercontent.com/59487209/83816459-0b165f00-a688-11ea-936e-9cdc13c14407.png)
 
 **2. Transfer**
 
 - Download the EAP Proxy by going to ( https://github.com/jaysoffian/eap_proxy ) and clicking the the green download button
+![Annotation 2020-06-04 161658](https://user-images.githubusercontent.com/59487209/83816513-2f723b80-a688-11ea-89c9-ebed80566202.png)
 - Login into the ER-X using WinSCP using the SCP protocol. Hit the up arrow on the folder until you are on the root directory
+![Annotation 2020-06-04 162044](https://user-images.githubusercontent.com/59487209/83816600-5d578000-a688-11ea-855d-3c8308c10608.png)
 - Drag and drop eap_proxy.py to /config/scripts/
 - Drag and drop eap_proxy.sh.example to /config/scripts/post-config.d/
 - Rename eap_proxy.sh.example to eap_proxy.sh
 
- **3. PuTTY**
+![Annotation 2020-06-04 162431](https://user-images.githubusercontent.com/59487209/83816681-955ec300-a688-11ea-910c-ed3461dacafc.png)
+
+**3. PuTTY**
 
 Open command in WinSCP and click “open in PuTTY”
+
+![Annotation 2020-06-04 162653](https://user-images.githubusercontent.com/59487209/83816739-b3c4be80-a688-11ea-82be-7e73fb5f76bb.png)
+
 Enter password and then type the following commands
 
     sudo chmod +x /config/scripts/eap_proxy.py
