@@ -13,7 +13,7 @@ In computer networking is a server that acts as an intermediary from clients see
 
 ## Simple EAP Proxy Setup
 
- 1. Initial Steps
+ **1. Initial Steps**
 
 - Download and install WinSCP ( https://winscp.net/eng/index.php )
 - Download and install PuTTY ( https://www.putty.org/ )
@@ -22,7 +22,7 @@ In computer networking is a server that acts as an intermediary from clients see
 - Make a Backup
 - Once the initial setup of the ER-X is finished, make a backup by click on “System” on the bottom left then clicking “Download”
 
- 2. Transfer
+**2. Transfer**
 
 - Download the EAP Proxy by going to ( https://github.com/jaysoffian/eap_proxy ) and clicking the the green download button
 - Login into the ER-X using WinSCP using the SCP protocol. Hit the up arrow on the folder until you are on the root directory
@@ -30,7 +30,7 @@ In computer networking is a server that acts as an intermediary from clients see
 - Drag and drop eap_proxy.sh.example to /config/scripts/post-config.d/
 - Rename eap_proxy.sh.example to eap_proxy.sh
 
- 3. PuTTY
+ **3. PuTTY**
 
 Open command in WinSCP and click “open in PuTTY”
 Enter password and then type the following commands
@@ -40,7 +40,7 @@ Enter password and then type the following commands
 
 **WARNING: This is the most dangerous setup. I am not responsible if you brick your ER-X.**
 
- 4. Editing config.boot
+ **4. Editing config.boot**
 
 - Navigate using WinSCP to /config/
 - Right click on config.boot and hit edit
