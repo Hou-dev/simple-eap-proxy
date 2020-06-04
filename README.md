@@ -55,6 +55,9 @@ Enter password and then type the following commands
 
 - Navigate using WinSCP to /config/
 - Right click on config.boot and hit edit
+
+![Annotation 2020-06-04 163810](https://user-images.githubusercontent.com/59487209/83816868-01d9c200-a689-11ea-8e17-bab02d1deb8c.png)
+
 - Scroll down until you see system, then delete everything above it
 **Reminder: Do not delete your system code it is where you password is stored**
 - Replace deleted text with code below
