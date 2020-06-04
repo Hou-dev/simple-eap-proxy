@@ -17,8 +17,9 @@ In computer networking is a server that acts as an intermediary from clients see
 
 - Download and install WinSCP ( https://winscp.net/eng/index.php )
 - Download and install PuTTY ( https://www.putty.org/ )
-- Setup Edgerouter X and run basic setup. Make sure you are not running v2.x.x because the proxy only works with v1.x.x
 - Make note of Modem/Router MAC address. It’s usually on black stick on the side of device
+- Setup Edgerouter X and run basic setup. Make sure you are not running v2.x.x because the proxy only works with v1.x.x
+
 - Make a Backup
 - Once the initial setup of the ER-X is finished, make a backup by click on “System” on the bottom left then clicking “Download”
 
