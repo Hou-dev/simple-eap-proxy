@@ -60,7 +60,7 @@ Enter password and then type the following commands
 
 - Scroll down until you see system, then delete everything above it
 **Reminder: Do not delete your system code it is where you password is stored**
-- Replace deleted text with code below
+- Replace deleted text with code my code in config.boot.sample
 
 - Scroll to system and here is where you can change the dns to Cloudflare (1.1.1.1) or Google (8.8.8.8). Under “name-server” , type your preferred DNS provider
 - Look for offload and type “hwnat enable” without quotes
