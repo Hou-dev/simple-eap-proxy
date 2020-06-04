@@ -38,14 +38,14 @@ Enter password and then type the following commands
     sudo chmod +x /config/scripts/eap_proxy.py
     sudo chmod +x /config/scripts/post-config.d/eap_proxy.sh
 
-WARNING: This is the most dangerous setup. I am not responsible if you brick your ER-X.
+**WARNING: This is the most dangerous setup. I am not responsible if you brick your ER-X.**
 
  4. Editing config.boot
 
 - Navigate using WinSCP to /config/
 - Right click on config.boot and hit edit
 - Scroll down until you see system, then delete everything above it.
-Reminder: Do not delete your system code it is where you password is stored
+**Reminder: Do not delete your system code it is where you password is stored**
 - Replace deleted text with code below
 - Scroll to system and here is where you can change the dns to cloudflare (1.1.1.1) or google (8.8.8.8). Under “name-server” , type your preferred DNS provider
 - Look for offload and type “hwnat enable” without quotes
