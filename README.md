@@ -49,3 +49,9 @@ Reminder: Do not delete your system code it is where you password is stored
 - Replace deleted text with code below
 - Scroll to system and here is where you can change the dns to cloudflare (1.1.1.1) or google (8.8.8.8). Under “name-server” , type your preferred DNS provider
 - Look for offload and type “hwnat enable” without quotes
+
+## Credit
+
+[https://github.com/jaysoffian/eap_proxy](https://github.com/jaysoffian/eap_proxy)
+[https://github.com/Genghis1227/guide_eap_proxy](https://github.com/Genghis1227/guide_eap_proxy)
+[https://old.reddit.com/r/Ubiquiti/comments/c36ko1/help_with_eap_proxy/](https://old.reddit.com/r/Ubiquiti/comments/c36ko1/help_with_eap_proxy/)
