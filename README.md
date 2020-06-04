@@ -1,5 +1,5 @@
-# simple-eap-proxy
-Simple EAP Proxy
+# Simple EAP proxy
+
 What is an eap proxy?
 In computer networking is a server that acts as an intermediary from clients seeking resources from a server that provides those resources. In our case we are requesting eap packets from the ont and sending them to the modem provided by the ATT.
 
