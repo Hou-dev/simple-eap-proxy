@@ -72,7 +72,7 @@ Enter password and then type the following commands
 - Scroll down until you see system, then delete everything above it
 **Reminder: Do not delete your system code it is where you password is stored**
 - Copy everything but the system code from my config.boot.sample and paste it above your system code. It should look like the sample but with your uniquie system code.
-- Find the MAC adress from pasted code and replace it with your ATT Modem MAC address
+- Find "mac" under interfaces from pasted code and replace it with your ATT Modem MAC address
 
 ![Annotation 2020-06-04 175605](https://user-images.githubusercontent.com/59487209/83818322-b45f5400-a68c-11ea-9b39-72c3eee1b836.png)
 
@@ -81,6 +81,12 @@ Enter password and then type the following commands
 
 ![Annotation 2020-06-04 174210](https://user-images.githubusercontent.com/59487209/83817602-cdff9c00-a68a-11ea-861d-6097480ad0a3.png)
 
+**5. Plug**
+- Plug ethernet from ONT to eth0
+- Plug LAN to eth1
+- Plug ATT Modem/Router ONT port to eth2
+- Restart ER-X and you should see something like below
+![Annotation 2020-06-04 180426](https://user-images.githubusercontent.com/59487209/83818796-d9a09200-a68d-11ea-8c27-d45e40b35780.png)
 
 ## Credit
 
