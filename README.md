@@ -1,4 +1,4 @@
-# Simple ATT Modem Bypass
+# Simple ATT Modem Bypass using Edgerouter X
 
 ## What is an eap proxy?
 
